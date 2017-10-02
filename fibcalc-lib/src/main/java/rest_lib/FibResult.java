@@ -1,5 +1,6 @@
 package rest_lib;
 
+//método disponibilizado no arquivo da prova
 public class FibResult {
 	
 	public static int fibonacci(int n) {
