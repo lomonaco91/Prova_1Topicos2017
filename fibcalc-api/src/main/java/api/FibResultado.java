@@ -5,16 +5,16 @@ public class FibResultado {
 	private int number;
 	private int fibonacci;
 	
-	public int getNum() {
+	public int getNumber() {
 		return number;
 	}
 	
-	public void setNum(int num) {
-		this.number = num;
+	public void setNumber(int number) {
+		this.number = number;
 	}
 	
-	public FibResultado withNum (int num) {
-		this.number = num;
+	public FibResultado withNum (int number) {
+		this.number = number;
 		return this;
 	}
 	
