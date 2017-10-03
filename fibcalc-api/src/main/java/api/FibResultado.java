@@ -2,19 +2,19 @@ package api;
 
 public class FibResultado {
 	
-	private int num;
+	private int number;
 	private int fibonacci;
 	
 	public int getNum() {
-		return num;
+		return number;
 	}
 	
 	public void setNum(int num) {
-		this.num = num;
+		this.number = num;
 	}
 	
 	public FibResultado withNum (int num) {
-		this.num = num;
+		this.number = num;
 		return this;
 	}
 	
